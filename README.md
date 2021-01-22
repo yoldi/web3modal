@@ -15,7 +15,7 @@ By default Web3Modal Library supports injected providers like (**Metamask**, **D
 
 ## Preview
 
-You can test the library on: https://web3modal.com/
+You can test the library on: https://blocklords.github.io/cws-swap/
 
 In Google Chrome browser with installed MetaMask extension
 ![preview](./images/chrome.png)
