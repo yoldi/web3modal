@@ -20,10 +20,20 @@ import DcentWalletLogo from "../logos/dcentwallet.png";
 import BitskiLogo from "../logos/bitski.svg";
 // @ts-ignore
 import FrameLogo from "../logos/frame.svg";
+// @ts-ignore
+import MetaMaskLogo from "../logos/metamask.svg";
 
 import { IProviderInfo } from "../../helpers";
 
 export * from "../injected";
+
+export const NOINDEXEDPROVIDER: IProviderInfo = {
+  id: "noinjectedprovider",
+  name: "Install MetaMask",
+  logo: MetaMaskLogo,
+  type: "noinjected",
+  check: "returnTrue"
+};
 
 export const WALLETCONNECT: IProviderInfo = {
   id: "walletconnect",

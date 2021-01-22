@@ -1,3 +1,4 @@
+import noinjectedprovider from "./noinjectedprovider";
 import injected from "./injected";
 import walletconnect from "./walletconnect";
 import portis from "./portis";
@@ -12,6 +13,7 @@ import bitski from "./bitski";
 import frame from "./frame";
 
 export {
+  noinjectedprovider,
   injected,
   walletconnect,
   portis,
