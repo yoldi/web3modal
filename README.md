@@ -17,7 +17,11 @@ By default Web3Modal Library supports injected providers like (**Metamask**, **D
 
 You can test the library on: https://web3modal.com/
 
-![preview](./images/preview.gif)
+In Google Chrome browser with installed MetaMask extension
+![preview](./images/chrome.png)
+
+In Microsoft Edge browser without any injected wallet providers:
+![preview](./images/edge.png)
 
 ## Projects using `web3modal`
 
